@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="result" placeholder="0">
+        <div class="buttons">
+            <button id="btn1" onclick="display('1')">1</button>
+            <button id="btn2" onclick="display('2')">2</button>
+            <button id="btn3" onclick="display('3')">3</button>
+            <button id="btnplus" onclick="display('+')">+</button>
+            <button id="btn4" onclick="display('4')">4</button>
+            <button id="btn5" onclick="display('5')">5</button>
+            <button id="btn6" onclick="display('6')">6</button>
+            <button id="btnminus" onclick="display('-')">-</button>
+            <button id="btn7" onclick="display('7')">7</button>
+            <button id="btn8" onclick="display('8')">8</button>
+            <button id="btn9" onclick="display('9')">9</button>
+            <button id="btnmul" onclick="display('*')">*</button>
+            <button id="btn0" onclick="display('0')">0</button>
+            <button id="btnclr" onclick="clr()">C</button>
+            <button id="btnback" onclick="backspace()"><</button>
+            <button id="btndiv" onclick="display('/')">/</button>
+            <button id="btnequal" onclick="solve()">=</button>
+        </div>
+</html>
